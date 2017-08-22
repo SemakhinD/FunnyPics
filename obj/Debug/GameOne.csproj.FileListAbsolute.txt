@@ -1,0 +1,20 @@
+c:\users\семахин\documents\visual studio 2017\Projects\GameOne\obj\Debug\GameOne.csprojResolveAssemblyReference.cache
+c:\users\семахин\documents\visual studio 2017\Projects\GameOne\obj\Debug\GameOne.Form1.resources
+c:\users\семахин\documents\visual studio 2017\Projects\GameOne\obj\Debug\GameOne.Properties.Resources.resources
+c:\users\семахин\documents\visual studio 2017\Projects\GameOne\obj\Debug\GameOne.csproj.GenerateResource.Cache
+c:\users\семахин\documents\visual studio 2017\Projects\GameOne\bin\Debug\GameOne.exe.config
+c:\users\семахин\documents\visual studio 2017\Projects\GameOne\bin\Debug\GameOne.exe
+c:\users\семахин\documents\visual studio 2017\Projects\GameOne\bin\Debug\GameOne.pdb
+c:\users\семахин\documents\visual studio 2017\Projects\GameOne\obj\Debug\GameOne.exe
+c:\users\семахин\documents\visual studio 2017\Projects\GameOne\obj\Debug\GameOne.pdb
+C:\Users\Семахин\documents\visual studio 2017\Projects\GameOne\obj\Debug\GameOne.Form2.resources
+C:\FunnyPics-master\bin\Debug\GameOne.exe.config
+C:\FunnyPics-master\bin\Debug\GameOne.exe
+C:\FunnyPics-master\bin\Debug\GameOne.pdb
+C:\FunnyPics-master\obj\Debug\GameOne.csprojResolveAssemblyReference.cache
+C:\FunnyPics-master\obj\Debug\GameOne.Form1.resources
+C:\FunnyPics-master\obj\Debug\GameOne.Form2.resources
+C:\FunnyPics-master\obj\Debug\GameOne.Properties.Resources.resources
+C:\FunnyPics-master\obj\Debug\GameOne.csproj.GenerateResource.Cache
+C:\FunnyPics-master\obj\Debug\GameOne.exe
+C:\FunnyPics-master\obj\Debug\GameOne.pdb
