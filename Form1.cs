@@ -15,6 +15,7 @@ namespace GameOne
         string[] Images = new string[] { "Cat.png", "Dog.png", "House.png", "USSR.png", "Eagle.png", "Ball.png", "Pikachu.png", "Batman.png" };
         
         int Score = 100;
+        int Delay;
         string[] FinalPic = new string[16];
         string[] ElementaryPic = new string[16];
         int[,] Pairs = new int[,] { { 1, 12 }, { 2, 16 }, { 3, 15 }, { 4, 7 }, { 5, 13 }, { 6, 14 }, { 8, 10 }, { 9, 11 } };
@@ -23,12 +24,14 @@ namespace GameOne
         int LastImage = 0;
         bool[] BoxIsClosed = new bool[16];
 
-        public Form1(string Data)
+        public Form1(string Data, int delay)
         {
             InitializeComponent();
 
             ConvertToBrotherImageMassive(Pairs);
             Constructor();
+
+            Delay = delay;
 
             for (int i = 0; i < 16; i++)
             {
@@ -165,7 +168,7 @@ namespace GameOne
                         BoxIsClosed[LastImageNumber-1] = true;
                     }
                     LastImage = 0;
-                    await Task.Delay(1000);
+                    await Task.Delay(Delay);
                     CloseAll();
                     break;
                 case 2:
@@ -176,7 +179,7 @@ namespace GameOne
                         BoxIsClosed[LastImageNumber-1] = true;
                     }
                     LastImage = 0;
-                    await Task.Delay(1000);
+                    await Task.Delay(Delay);
                     CloseAll();
                     break;
                 case 3:
@@ -187,7 +190,7 @@ namespace GameOne
                         BoxIsClosed[LastImageNumber-1] = true;
                     }
                     LastImage = 0;
-                    await Task.Delay(1000);
+                    await Task.Delay(Delay);
                     CloseAll();
                     break;
                 case 4:
@@ -198,7 +201,7 @@ namespace GameOne
                         BoxIsClosed[LastImageNumber-1] = true;
                     }
                     LastImage = 0;
-                    await Task.Delay(1000);
+                    await Task.Delay(Delay);
                     CloseAll();
                     break;
                 case 5:
@@ -209,7 +212,7 @@ namespace GameOne
                         BoxIsClosed[LastImageNumber-1] = true;
                     }
                     LastImage = 0;
-                    await Task.Delay(1000);
+                    await Task.Delay(Delay);
                     CloseAll();
                     break;
                 case 6:
@@ -220,7 +223,7 @@ namespace GameOne
                         BoxIsClosed[LastImageNumber-1] = true;
                     }
                     LastImage = 0;
-                    await Task.Delay(1000);
+                    await Task.Delay(Delay);
                     CloseAll();
                     break;
                 case 7:
@@ -231,7 +234,7 @@ namespace GameOne
                         BoxIsClosed[LastImageNumber-1] = true;
                     }
                     LastImage = 0;
-                    await Task.Delay(1000);
+                    await Task.Delay(Delay);
                     CloseAll();
                     break;
                 case 8:
@@ -242,7 +245,7 @@ namespace GameOne
                         BoxIsClosed[LastImageNumber-1] = true;
                     }
                     LastImage = 0;
-                    await Task.Delay(1000);
+                    await Task.Delay(Delay);
                     CloseAll();
                     break;
                 case 9:
@@ -253,7 +256,7 @@ namespace GameOne
                         BoxIsClosed[LastImageNumber-1] = true;
                     }
                     LastImage = 0;
-                    await Task.Delay(1000);
+                    await Task.Delay(Delay);
                     CloseAll();
                     break;
                 case 10:
@@ -264,7 +267,7 @@ namespace GameOne
                         BoxIsClosed[LastImageNumber-1] = true;
                     }
                     LastImage = 0;
-                    await Task.Delay(1000);
+                    await Task.Delay(Delay);
                     CloseAll();
                     break;
                 case 11:
@@ -275,7 +278,7 @@ namespace GameOne
                         BoxIsClosed[LastImageNumber-1] = true;
                     }
                     LastImage = 0;
-                    await Task.Delay(1000);
+                    await Task.Delay(Delay);
                     CloseAll();
                     break;
                 case 12:
@@ -286,7 +289,7 @@ namespace GameOne
                         BoxIsClosed[LastImageNumber-1] = true;
                     }
                     LastImage = 0;
-                    await Task.Delay(1000);
+                    await Task.Delay(Delay);
                     CloseAll();
                     break;
                 case 13:
@@ -297,7 +300,7 @@ namespace GameOne
                         BoxIsClosed[LastImageNumber-1] = true;
                     }
                     LastImage = 0;
-                    await Task.Delay(1000);
+                    await Task.Delay(Delay);
                     CloseAll();
                     break;
                 case 14:
@@ -308,7 +311,7 @@ namespace GameOne
                         BoxIsClosed[LastImageNumber-1] = true;
                     }
                     LastImage = 0;
-                    await Task.Delay(1000);
+                    await Task.Delay(Delay);
                     CloseAll();
                     break;
                 case 15:
@@ -319,7 +322,7 @@ namespace GameOne
                         BoxIsClosed[LastImageNumber-1] = true;
                     }
                     LastImage = 0;
-                    await Task.Delay(1000);
+                    await Task.Delay(Delay);
                     CloseAll();
                     break;
                 case 16:
@@ -330,7 +333,7 @@ namespace GameOne
                         BoxIsClosed[LastImageNumber-1] = true;
                     }
                     LastImage = 0;
-                    await Task.Delay(1000);
+                    await Task.Delay(Delay);
                     CloseAll();
                     break;
                 case 0:
